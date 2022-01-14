@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "applicationId": "com.fli.elogistic.driver.staging",
+  "variantType": "BASE_APK",
+  "elements": [
+    {
+      "outputType": {
+        "type": "MERGED_MANIFESTS"
+      },
+      "apkData": {
+        "type": "MAIN",
+        "splits": [],
+        "versionCode": 1,
+        "versionName": "2.0-staging",
+        "outputFile": "app-staging-debug.apk",
+        "fullName": "stagingDebug",
+        "baseName": "staging-debug",
+        "dirName": ""
+      },
+      "path": "AndroidManifest.xml",
+      "properties": {
+        "packageId": "com.fli.elogistic.driver.staging",
+        "split": "",
+        "minSdkVersion": "21"
+      }
+    }
+  ]
+}
