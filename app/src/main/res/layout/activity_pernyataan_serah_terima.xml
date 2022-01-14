@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fli.elogistic.driver.ui.activities.LaporanKerusakanSelisihActivity"
+    android:orientation="vertical"
+    android:id="@+id/layout">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/bg_toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height"
+            android:background="@color/colorPrimary"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_24dp"
+            android:layout_marginStart="@dimen/dimen_12dp"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:src="@drawable/ic_chevronleft"
+            android:layout_centerVertical="true"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/pernyataan_serah_terima"
+            android:textColor="@color/white"
+            android:textSize="@dimen/txt_size_20sp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@id/btn_back"/>
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/top_rounded_rect_white"
+        android:layout_marginTop="@dimen/dimen_16dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/dimen_16dp"
+            android:paddingBottom="@dimen/dimen_16dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="@string/pernyataan_serah_terima_barang"
+                android:textAllCaps="true"
+                android:textColor="@color/veryDarkGrey" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_4dp"
+                android:background="@drawable/dotted_line"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp"/>
+
+            <TextView
+                android:id="@+id/no_pesanan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PES0987664321-CODE.ID"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:textColor="@color/veryDarkGrey"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/kategori_barang"/>
+                <TextView
+                    android:id="@+id/txt_kategori"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="Bahan Baku Minuman"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_2dp"
+                android:background="@color/loginBackground"
+                android:layout_marginTop="@dimen/dimen_16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Sub Kategori Barang"/>
+                <TextView
+                    android:id="@+id/txt_sub_kategori"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:text="(Creame &amp; Milk)"/>
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_2dp"
+                android:background="@color/loginBackground"
+                android:layout_marginTop="@dimen/dimen_16dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/informasi_tambahan"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/dimen_16dp"/>
+
+            <TextView
+                android:id="@+id/txt_notes"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@drawable/rounded_rect_grey"
+                android:maxLines="20"
+                android:text="Barang Jangan Sampai Rusak"
+                android:padding="@dimen/dimen_8dp"
+                tools:ignore="Autofill" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_penerima"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:textStyle="bold"
+                android:layout_marginStart="@dimen/dimen_16dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/veryLightBlue"
+                android:padding="@dimen/dimen_16dp"
+                android:layout_marginTop="@dimen/dimen_16dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="@dimen/dimen_24dp"
+                    android:layout_height="@dimen/dimen_24dp"
+                    android:padding="@dimen/dimen_4dp"
+                    android:src="@drawable/ic_account_icon"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/nama_penerima"
+                    android:layout_marginStart="@dimen/dimen_8dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txt_nama_penerima"
+                    android:gravity="end"
+                    android:text="Budi Angkasa"/>
+            </LinearLayout>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:id="@+id/et_serah_terima"
+                android:hint="@string/catatan"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@drawable/rounded_rect_grey"
+                android:maxLines="20"
+                android:padding="@dimen/dimen_8dp"
+                tools:ignore="Autofill,LabelFor"
+                android:inputType="textMultiLine"
+                android:gravity="top"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/dimen_2dp"
+                android:background="@color/loginBackground"
+                android:layout_marginTop="@dimen/dimen_8dp"/>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:background="@drawable/rounded_rect_grey_border"
+                android:paddingBottom="@dimen/dimen_8dp">
+                <com.github.gcacace.signaturepad.views.SignaturePad
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/signature_pad"
+                    app:penColor="@color/black"
+                    app:clearOnDoubleClick="true"/>
+                <TextView
+                    android:id="@+id/ketuk"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/ketuk_untuk_tanda_tangan"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="@dimen/dimen_8dp"
+                    android:textColor="@color/grey"/>
+                <ImageView
+                    android:id="@+id/edit"
+                    android:layout_width="@dimen/dimen_12dp"
+                    android:layout_height="@dimen/dimen_12dp"
+                    android:src="@drawable/ic_pencilgrey"
+                    android:layout_toEndOf="@id/ketuk"
+                    android:layout_alignParentBottom="true"
+                    tools:ignore="ContentDescription"
+                    android:layout_marginStart="@dimen/dimen_4dp"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="4dp"
+                android:background="@color/loginBackground"
+                android:id="@+id/v6"
+                android:layout_marginTop="@dimen/dimen_24dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/tab_bar_height"
+                android:id="@+id/btn_kirim"
+                android:background="@drawable/rounded_button_accent"
+                android:layout_marginTop="@dimen/dimen_24dp"
+                android:layout_marginStart="@dimen/dimen_16dp"
+                android:layout_marginEnd="@dimen/dimen_16dp"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:text="@string/pengiriman_selesai"
+                android:textSize="@dimen/txt_size_16sp"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,186 @@
+<resources>
+    <!--    <string name="app_name">FLI Shipper</string>-->
+    <string name="password">Kata Sandi</string>
+    <string name="email">Email</string>
+    <string name="activation">Aktivasi</string>
+    <string name="login">Masuk</string>
+    <string name="login_navigation">Masuk Akun</string>
+    <string name="activate_account">Aktivasi Akun</string>
+    <string name="activation_notice">Kami akan mengirimkan email verfikasi untuk dapat mengaktifkan akun Anda.</string>
+    <string name="fullname">Nama Lengkap</string>
+    <string name="repeat_password">Ulangi Kata Sandi</string>
+    <string name="account_information">Informasi Akun</string>
+    <string name="logout">Keluar / Logout</string>
+    <string name="loading">Loading</string>
+    <string name="ok">OK</string>
+    <string name="retry">Coba Lagi</string>
+    <string name="invalid_role">Harap login sebagai Driver</string>
+
+    <string name="session_expired">Sesi anda telah habis atau telah login melalui perangkat lain, harap melakukan login kembali</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="wrong_email_pass">Email/password yang anda masukkan salah</string>
+    <string name="fill_email_password">Harap isi kolom email dan password</string>
+    <string name="wrong_email_format">Format email anda salah</string>
+
+    <string name="channel_description">Notifications</string>
+    <string name="log_out">Log Out</string>
+    <string name="driver">Driver</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="kata_sandi">Kata Sandi</string>
+    <string name="ulangi_kata_sandi">Ulangi Kata Sandi</string>
+    <string name="copyright_text">
+        Copyright Fastlog 2020 -
+        <a href="https://fastlog.id">Fastlog.id</a>
+    </string>
+    <string name="penjemputan">Penjemputan</string>
+    <string name="pengiriman">Pengiriman</string>
+    <string name="selesai">Selesai</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="konfirmasi">Konfirmasi</string>
+    <string name="tinjau_detil_pengiriman">Tinjau detil pengiriman</string>
+    <string name="no_kargo">No Kargo</string>
+    <string name="tipe_kendaraan">Tipe Kendaraan</string>
+    <string name="no_kendaraan">No Kendaraan</string>
+    <string name="tanggal_pengambilan">Tanggal Pengambilan</string>
+    <string name="tempat_asal">Tempat Asal</string>
+    <string name="lokasi_tujuan">Lokasi Tujuan</string>
+    <string name="terima">Terima</string>
+    <string name="akun">Akun</string>
+    <string name="detil">Detil</string>
+    <string name="tinjau_detil_penjemputan">Tinjau Detil Penjemputan</string>
+    <string name="hard_copy_pod">Hard Copy POD</string>
+    <string name="dokumen_pod">Dokumen POD</string>
+    <string name="dokumen_lengkap">Dokumen Lengkap</string>
+    <string name="belum_kirim_dokumen">Belum Kirim Dokumen</string>
+    <string name="dokumen_terkirim">Dokumen Terkirim</string>
+    <string name="dokumen_tidak_lengkap">Dokumen Tidak Lengkap</string>
+    <string name="pengiriman_dokumen_pod">Pengiriman Dokumen POD</string>
+    <string name="nama">Nama</string>
+    <string name="status">Status</string>
+    <string name="aksi">Aksi</string>
+    <string name="surat_jalan">Surat Jalan</string>
+    <string name="asli_copy">(Asli + Copy)</string>
+    <string name="bukti_terima_barang">Bukti Terima Barang</string>
+    <string name="bukti_selisih_barang">Bukti Selisih Barang</string>
+    <string name="jika_ada">(Jika ada)</string>
+    <string name="kwitansi_bongkar">Kwitansi Bongkar</string>
+    <string name="dokumen_tambahan_lainnya">Dokumen Tambahan Lainnya</string>
+    <string name="resi_pengiriman_fisik">Resi Pengiriman Fisik Dokumen</string>
+    <string name="batal">Batal</string>
+    <string name="catatan">Catatan</string>
+    <string name="isi_catatan">Isi catatan disini</string>
+    <string name="simpan">Simpan</string>
+    <string name="nama_pengirim">Nama Pengirim</string>
+    <string name="no_telpon_pengirim">No Telpon Pengirim</string>
+    <string name="nama_penerima">Nama Penerima</string>
+    <string name="no_telpon_penerima">No Telpon Penerima</string>
+    <string name="catatan_pengambilan">Catatan Pengambilan</string>
+    <string name="dilokasi_penjemputan">Dilokasi Penjemputan</string>
+    <string name="foto_surat_jalan">Foto Surat Jalan</string>
+    <string name="laporkan_kerusakan_selisih">Laporkan Kerusakan/Selisih</string>
+    <string name="dokumentasi">Dokumentasi</string>
+    <string name="laporan_kerusakan_selisih">Laporan Kerusakan / Selisih</string>
+    <string name="laporan">Laporan</string>
+    <string name="kerusakan_selisih">Kerusakan / Selisih</string>
+    <string name="no_pesanan">No Pesanan</string>
+    <string name="barang_bukti">Bukti Selisih Penerimaan</string>
+    <string name="kirim_basp">Kirim BASP</string>
+    <string name="pernyataan_serah_terima_barang">Pernyataan Serah Terima Barang</string>
+    <string name="pernyataan_serah_terima">Pernyataan Serah Terima</string>
+    <string name="kategori_barang">Kategori Barang</string>
+    <string name="informasi_tambahan">Informasi Tambahan</string>
+    <string name="ketuk_untuk_tanda_tangan">Ketuk 2x Untuk Menghapus</string>
+    <string name="pesanan_selesai">Pesanan Selesai</string>
+    <string name="pengiriman_selesai">Pengiriman Selesai</string>
+    <string name="saya_setuju_dengan_term_of_service">Saya setuju dengan Term of Service</string>
+    <string name="verifikasi_captcha">Verifikasi Captcha</string>
+    <string name="link_term_of_service">http://www.google.com</string>
+    <string name="term_of_service">Term of Service</string>
+    <string name="terverifikasi">Terverifikasi</string>
+    <string name="daftar_biaya_ongkir">Daftar Biaya Ongkir</string>
+    <string name="nomor">Nomor</string>
+    <string name="nama_biaya">Nama Biaya</string>
+    <string name="biaya_rp">Biaya (Rp)</string>
+    <string name="tidak_ada_data">Tidak ada data</string>
+    <string name="sampai_di_lokasi">Sampai di lokasi tujuan</string>
+    <string name="biaya_tambahan">Biaya Tambahan</string>
+    <string name="jumlah_biaya">Jumlah biaya</string>
+    <string name="gagal_mendapatkan_data">Gagal mendapatkan data</string>
+    <string name="tipe_dokumen">Tipe Dokumen</string>
+    <string name="surat_jalan_asli_copy">Surat Jalan\n(Asli + Copy)</string>
+    <string name="upload_dokumen_pod">Upload Dokumen POD</string>
+    <string name="nama_dokumen">Nama Dokumen</string>
+    <string name="max_character">maks 60 karakter</string>
+    <string name="ambil_gambar">Ambil Gambar</string>
+    <string name="silahkan_pilih_tipe_dokumen">Silahkan pilih tipe dokumen terlebih dahulu</string>
+    <string name="silahkan_ambil_gambar">Silahkan ambil gambar terlebih dahulu</string>
+    <string name="silahkan_isi_nama_dokumen">Silahkan isi nama dokumen terlebih dahulu</string>
+    <string name="jenis_biaya_tambahan">Jenis Biaya Tambahan</string>
+    <string name="silahkan_pilih_jenis_biaya">Silahkan pilih jenis biaya terlebih dahulu</string>
+    <string name="silahkan_isi_jumlah_biaya">Silahkan isi jumlah biaya terlebih dahulu</string>
+    <string name="jumlah_maksimal_photo_terpenuhi">Jumlah maksimal photo sudah terpenuhi</string>
+
+    <string-array name="Alasan">
+        <item>Alasan BASP</item>
+        <item>Selisih Kurang</item>
+        <item>Kurang Karena Barang Rusak</item>
+        <item>Karton Rusak Tapi Barang Diterima</item>
+        <item>Selisih Barang</item>
+        <item>Lain - lain</item>
+    </string-array>
+    <string-array name="TipeDokumen">
+        <item>Tipe Dokumen</item>
+        <item>Surat Jalan</item>
+        <item>Surat Serah Terima</item>
+        <item>Surat Perintah Kiriman</item>
+        <item>Foto Muat Barang</item>
+        <item>Foto Bongkar Barang</item>
+        <item>Foto BASP</item>
+        <item>Foto Bukti BASP</item>
+        <item>Foto BAST</item>
+    </string-array>
+    <string-array name="JenisBiaya">
+        <item>Jenis Biaya</item>
+        <item>Biaya Bahan bakar Minyak (BBM)</item>
+        <item>Spv Legal</item>
+        <item>Legal Manager</item>
+        <item>HOO&amp;W</item>
+        <item>HOCL</item>
+    </string-array>
+    <string name="title_activity_photo_view_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="gagal_memuat_naik_data">Gagal Memuat Naik Data</string>
+    <string name="silahkan_tanda_tangan">\"Silahkan Tanda Tangan Terlebih Dahulu \"</string>
+    <string name="change_password">Ganti Kata Sandi</string>
+    <string name="new_password">Kata Sandi Baru</string>
+    <string name="confirm_new_password">Konfirmasi Kata Sandi Baru</string>
+    <string name="perusahaan">Perusahaan</string>
+    <string name="email_akun">Email</string>
+    <string name="surat_perintah_pengiriman">Surat Perintah pengiriman</string>
+    <string name="sudah_dikirim">Sudah Dikirim</string>
+    <string name="belum_dikirim">Belum Dikirim</string>
+    <string name="no">No</string>
+    <string name="total_sudah_dikirim_rp">Total Sudah Dikirim (Rp) :</string>
+    <string name="total_belum_dikirim_rp">Total Belum Dikirim (Rp) :</string>
+    <string name="sub_kategori_barang">Sub Kategori Barang</string>
+    <string name="berangkat_ke_lokasi_asal">Berangkat ke Lokasi Penjemputan Asal</string>
+    <string name="sampai_dilokasi_penjemputan_asal">Sampai di Lokasi Penjemputan Asal</string>
+    <string name="berangkat_ke_lokasi_pengiriman_akhir">Berangkat Ke Lokasi Pengiriman Akhir</string>
+    <string name="sampai_dilokasi_pengiriman_akhir">Sampai di Lokasi Pengiriman Akhir</string>
+    <string name="suspended">Suspended</string>
+    <string name="berita_acara_serah_terima">Berita Acara Serah Terima</string>
+    <string name="alasan_keterangan_basp">Alasan keterangan BASP</string>
+    <string name="keterangan">Keterangan</string>
+    <string name="laporan_masalah">Laporan Masalah</string>
+    <string name="laporkan_masalah_dalam_pengiriman_barang">Laporkan masalah dalam pengiriman barang</string>
+    <string name="yang_menyebabkan_pengiriman_terlambat">Yang menyebabkan pengiriman terlambat</string>
+    <string name="kirim">Kirim</string>
+    <string name="alasan_lainnya">Alasan lainnya</string>
+    <string name="bukti_masalah">Bukti masalah</string>
+    <string name="lainnya">Lainnya</string>
+    <string name="berangkat">Berangkat</string>
+    <string name="hjhjhkjhjh">Berangkat ke lokasi asal</string>
+    <string name="nama_lokasi">Nama Lokasi</string>
+</resources>

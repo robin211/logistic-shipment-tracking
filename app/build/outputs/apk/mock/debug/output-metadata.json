@@ -1,0 +1,20 @@
+{
+  "version": 1,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "com.fli.elogistic.driver.mock",
+  "variantName": "mockDebug",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "properties": [],
+      "versionCode": 1,
+      "versionName": "2.0-mock",
+      "enabled": true,
+      "outputFile": "app-mock-debug.apk"
+    }
+  ]
+}

@@ -1,0 +1,154 @@
+[
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\list_dokument_pod_item.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\list_dokument_pod_item.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\list_dokumen_pod.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\list_dokumen_pod.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_penjemputan_detail.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_penjemputan_detail.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\item_biaya_tambahan.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\item_biaya_tambahan.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_daftar_biaya_ongkir.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_daftar_biaya_ongkir.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\list_pesanan.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\list_pesanan.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\bottomsheet_notes.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\bottomsheet_notes.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_pengiriman.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_pengiriman.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_dokumen_p_o_d.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_dokumen_p_o_d.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\pengiriman_list_item.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\pengiriman_list_item.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\list_pesanan2.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\list_pesanan2.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_akun.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_akun.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_laporan_kerusakan_selisih.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_laporan_kerusakan_selisih.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\item_daftar_biaya.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\item_daftar_biaya.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_splash.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_lokasi_penjemputan.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_lokasi_penjemputan.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_biaya_tambahan.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_biaya_tambahan.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_selesai.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_selesai.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\konfirmasi_order_list_item.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\konfirmasi_order_list_item.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\spinner_item.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_upload_p_o_d.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_upload_p_o_d.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_activate_account.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_activate_account.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_login.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_pernyataan_serah_terima.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_pernyataan_serah_terima.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_penjemputan.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_penjemputan.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_p_o_d_detail.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_p_o_d_detail.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\multi_location_item_maps.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\multi_location_item_maps.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\multi_location_item_maps_detil.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\multi_location_item_maps_detil.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\dialog_image_title_content_button.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\dialog_image_title_content_button.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_konfirmasi.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_konfirmasi.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\fragment_hard_copy_p_o_d.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\fragment_hard_copy_p_o_d.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_accident.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_accident.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_konfirmasi_detail.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_konfirmasi_detail.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_authorization.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_authorization.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_pengiriman_detail.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_pengiriman_detail.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\activity_photo_view_fullscreen.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\activity_photo_view_fullscreen.xml"
+    },
+    {
+        "merged": "D:\\CODE_ID\\fli-mobile-driver\\app\\build\\intermediates\\incremental\\mergeMockDebugResources\\stripped.dir\\layout\\list_image.xml",
+        "source": "D:\\CODE_ID\\fli-mobile-driver\\app\\src\\main\\res\\layout\\list_image.xml"
+    }
+]

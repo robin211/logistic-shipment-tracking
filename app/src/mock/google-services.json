@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "408348638345",
+    "project_id": "fastlog-development",
+    "storage_bucket": "fastlog-development.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:408348638345:android:d2c46d08527f9d2bb39a58",
+        "android_client_info": {
+          "package_name": "com.fli.elogistic.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "408348638345-galgp8r9h29a8e7obnuu6ef7tebuvqrd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArFu9Xus9ZgIVRUrHEgenuVSYKUj_ains"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "408348638345-galgp8r9h29a8e7obnuu6ef7tebuvqrd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

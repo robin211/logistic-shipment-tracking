@@ -1,0 +1,214 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.fli.elogistic.driver.ui.fragments.AkunFragment">
+
+    <ImageView
+        android:id="@+id/bg_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toolbar_height"
+        android:background="@color/colorPrimary"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="@dimen/dimen_40dp"
+        android:layout_height="@dimen/dimen_24dp"
+        android:layout_marginStart="@dimen/dimen_12dp"
+        android:layout_marginEnd="@dimen/dimen_16dp"
+        android:src="@drawable/ic_chevronleft"
+        app:layout_constraintBottom_toBottomOf="@id/bg_toolbar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/bg_toolbar"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dimen_16dp"
+        android:text="@string/akun"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_size_20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/bg_toolbar"
+        app:layout_constraintStart_toEndOf="@id/btn_back"
+        app:layout_constraintTop_toTopOf="@id/bg_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/bg_toolbar"
+        android:layout_marginTop="@dimen/toolbar_height">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/debug_version"
+                android:textColor="@color/colorPrimary"
+                android:text="Debug Version"
+                android:layout_margin="@dimen/dimen_16dp"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/ic_profile"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:padding="@dimen/dimen_6dp"
+                    android:src="@drawable/ic_user"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_centerVertical="true"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/nama"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_profile"
+                    android:text="@string/nama" />
+                <TextView
+                    android:id="@+id/nama_lengkap"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_profile"
+                    android:layout_below="@id/nama"
+                    tools:text="Nama Lengkap"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_2dp"
+                    android:background="@color/loginBackground"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_below="@id/ic_profile"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/ic_email"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:src="@drawable/ic_emails"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:padding="@dimen/dimen_6dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_email"
+                    android:text="@string/email_akun" />
+                <TextView
+                    android:id="@+id/email_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_email"
+                    android:layout_below="@id/email"
+                    tools:text="Email@email.com"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_2dp"
+                    android:background="@color/loginBackground"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_below="@id/ic_email"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/ic_company"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:src="@drawable/ic_building"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:padding="@dimen/dimen_6dp"
+                    tools:ignore="ContentDescription" />
+                <TextView
+                    android:id="@+id/company"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_company"
+                    android:text="@string/perusahaan" />
+                <TextView
+                    android:id="@+id/company_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:layout_marginTop="@dimen/dimen_8dp"
+                    android:layout_marginEnd="@dimen/dimen_16dp"
+                    android:layout_toEndOf="@id/ic_company"
+                    android:layout_below="@id/company"
+                    tools:text="Email@email.com"
+                    android:textStyle="bold"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_2dp"
+                    android:background="@color/loginBackground"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_below="@id/ic_company"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/mainLogoutButton">
+                <ImageView
+                    android:id="@+id/ic_logout"
+                    android:layout_width="@dimen/dimen_40dp"
+                    android:layout_height="@dimen/dimen_40dp"
+                    android:src="@drawable/ic_logout"
+                    android:layout_marginStart="@dimen/dimen_16dp"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:padding="@dimen/dimen_6dp"
+                    tools:ignore="ContentDescription"
+                    android:layout_centerVertical="true"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/dimen_8dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/blueIcon"
+                    android:text="@string/logout"
+                    android:layout_centerVertical="true"
+                    android:layout_toEndOf="@id/ic_logout"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/dimen_2dp"
+                    android:background="@color/loginBackground"
+                    android:layout_marginTop="@dimen/dimen_16dp"
+                    android:layout_below="@id/ic_logout"/>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

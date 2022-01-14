@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            android:paddingEnd="@dimen/dimen_4dp"
+            tools:ignore="RtlSymmetry"
+            android:layout_gravity="center_vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_tipe_dokumen"
+                android:maxLines="3"
+                tools:text="@string/surat_jalan"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/additioinal_text"
+                tools:text="(Asli + Copy)"
+                android:visibility="gone"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:id="@+id/txt_nama_dokumen"
+            android:maxLines="5"
+            tools:text="Resi pengiriman fisik dokumen lokasi penjemputan 1"
+            android:textStyle="normal"
+            android:paddingStart="@dimen/dimen_4dp"
+            android:paddingEnd="@dimen/dimen_8dp"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_catatan"
+            android:src="@drawable/ic_catatan"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription"
+            android:visibility="invisible"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_view"
+            android:src="@drawable/ic_catatan"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_edit"
+            android:src="@drawable/ic_pencilgrey"
+            android:padding="@dimen/dimen_10dp"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:layout_weight="1"
+            android:id="@+id/btn_delete"
+            android:padding="@dimen/dimen_10dp"
+            android:src="@drawable/ic_trash"
+            android:layout_gravity="center_vertical"
+            tools:ignore="ContentDescription" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
