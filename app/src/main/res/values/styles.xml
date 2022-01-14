@@ -1,0 +1,162 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="BottomNavigationTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/lightBlue</item>
+        <item name="android:textColorSecondary">@color/textGreyBD</item>
+    </style>
+
+    <style name="AppThemeNoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="SplashTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--Change the drawable below with splash screen's one-->
+        <item name="android:windowBackground">@drawable/fli_logo</item>
+        <item name="android:background">@drawable/background_gradient_vector</item>
+    </style>
+
+    <style name="TextOnButton">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="BlueTextBtn" parent="TextOnButton">
+        <item name="android:textColor">@color/txtBlue2D</item>
+    </style>
+
+    <style name="WhiteTextBtn" parent="TextOnButton">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+
+    <style name="textSmall">
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="greyTextBoldF2">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/textGreyF2</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="greyTextCardLabel82">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/textGrey82</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <style name="greyTextSmallF2" parent="textSmall">
+        <item name="android:textColor">@color/textGreyF2</item>
+    </style>
+
+    <style name="greyTextSmall4F" parent="textSmall">
+        <item name="android:textColor">@color/textGrey4F</item>
+    </style>
+
+    <style name="greyTextSmall82" parent="textSmall">
+        <item name="android:textColor">@color/textGrey82</item>
+    </style>
+
+    <style name="blueTextSmall2F" parent="textSmall">
+        <item name="android:textColor">@color/darkerBlue2F</item>
+    </style>
+
+    <style name="redTextSmallEB" parent="textSmall">
+        <item name="android:textColor">@color/redEB</item>
+    </style>
+
+    <style name="whiteText14" parent="textSmall">
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="whiteText12">
+        <item name="android:fontFamily">@font/source_sans_pro</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="whiteTextSemibold18" parent="whiteText14">
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="toolbarTextSemiBold18">
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:background">@color/darkerBlue23</item>
+        <item name="titleTextColor">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="contentInsetStartWithNavigation">@dimen/dimen_0dp</item>
+    </style>
+
+    <style name="toolbarTextSemiBold14" parent="toolbarTextSemiBold18">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="blue23TextSemiBold14" parent="textSemiBold14">
+        <item name="android:textColor">@color/darkerBlue23</item>
+    </style>
+
+    <style name="textSemiBold14">
+        <item name="android:fontFamily">@font/source_sans_pro_semibold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/textGrey4F</item>
+    </style>
+
+    <style name="textSemiBold16" parent="textSemiBold14">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="greyText82Size12" parent="greyTextSmall82">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="appCardPadding">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingTop">@dimen/dimen_8dp</item>
+        <item name="android:paddingStart">@dimen/dimen_20dp</item>
+        <item name="android:paddingEnd">@dimen/dimen_20dp</item>
+        <item name="android:paddingBottom">@dimen/dimen_12dp</item>
+    </style>
+
+    <style name="spinnerStyle" parent="@android:style/Widget.Holo.Light.Spinner" />
+
+    <style name="greyTextSmall4FItalic" parent="greyTextSmall4F">
+        <item name="android:fontFamily">@font/source_sans_pro_italic</item>
+    </style>
+
+    <style name="DialogStyle" parent="Base.Theme.AppCompat.Dialog">
+        <item name="android:windowMinWidthMajor">90%</item>
+        <item name="android:windowMinWidthMinor">90%</item>
+    </style>
+
+    <style name="whiteTextBoldsize20">
+        <item name="android:fontFamily">@font/source_sans_pro_bold</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="FullscreenTheme" parent="AppTheme">
+        <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="metaButtonBarStyle">?android:attr/buttonBarStyle</item>
+        <item name="metaButtonBarButtonStyle">?android:attr/buttonBarButtonStyle</item>
+    </style>
+
+    <style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+</resources>

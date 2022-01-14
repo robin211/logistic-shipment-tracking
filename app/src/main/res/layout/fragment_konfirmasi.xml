@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <data>
+
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.fli.elogistic.shipper.ui.fragments.PesananBaruFragment"
+        android:background="@color/loginBackground"
+        android:orientation="vertical"
+        android:id="@+id/need_confirmation_layout">
+
+        <RelativeLayout
+            android:id="@+id/header_holder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/home_header_height"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/ic_bannerbackgroundblue">
+            <TextView
+                android:id="@+id/welcome"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/txt_size_20sp"
+                android:textColor="@color/white"
+                android:text="@string/selamat_datang"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dimen_16dp"
+                tools:ignore="RelativeOverlap" />
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/profile_image"
+                android:layout_width="@dimen/dimen_48dp"
+                android:layout_height="@dimen/dimen_48dp"
+                android:src="@drawable/ic_account_icon"
+                android:layout_below="@id/welcome"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/dimen_16dp"/>
+
+            <ImageView
+                android:id="@+id/notification_icon"
+                android:layout_width="@dimen/dimen_36dp"
+                android:layout_height="@dimen/dimen_36dp"
+                android:layout_alignParentEnd="true"
+                android:src="@drawable/ic_bell"
+                android:layout_margin="@dimen/dimen_16dp"
+                android:padding="@dimen/dimen_8dp"
+                android:background="@drawable/oval_grey_transparent"
+                tools:ignore="ContentDescription" />
+            <TextView
+                android:id="@+id/notif_count"
+                android:layout_width="@dimen/dimen_16dp"
+                android:layout_height="@dimen/dimen_16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_margin="@dimen/dimen_20dp"
+                android:background="@drawable/oval_red_bordered"
+                android:textColor="@color/white"
+                android:text="99"
+                android:gravity="center"
+                android:textSize="8sp"
+                android:visibility="gone"/>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_size_20sp"
+                android:textStyle="bold"
+                tools:text="Dermawan"
+                android:layout_below="@id/profile_image"
+                android:layout_centerHorizontal="true"/>
+            <TextView
+                android:id="@+id/pt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="@dimen/dimen_8dp"
+                android:layout_below="@id/user_name"
+                tools:text="PT. Shipper"/>
+
+            <TextView
+                android:id="@+id/status_suspend"
+                android:layout_width="100dp"
+                android:layout_height="@dimen/dimen_24dp"
+                android:textColor="@color/suspendRed"
+                android:layout_centerHorizontal="true"
+                android:gravity="center"
+                android:foregroundGravity="center_horizontal"
+                android:layout_below="@id/pt_name"
+                android:text="@string/suspended"
+                app:drawableStartCompat="@drawable/forbidden"
+                android:visibility="gone"/>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/txt_konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="@dimen/txt_size_20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/header_holder"
+            android:layout_margin="@dimen/dimen_16dp"
+            android:text="@string/konfirmasi"/>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_konfirmasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txt_konfirmasi"
+            android:layout_marginTop="@dimen/dimen_8dp"
+            android:layout_marginStart="@dimen/dimen_16dp"
+            android:layout_marginEnd="@dimen/dimen_16dp"
+            android:layout_marginBottom="@dimen/tab_bar_height"
+            android:visibility="visible"/>
+        <TextView
+            android:id="@+id/no_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/tidak_ada_data"
+            android:gravity="center"
+            android:visibility="gone"/>
+    </LinearLayout>
+</layout>

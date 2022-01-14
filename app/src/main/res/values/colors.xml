@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimaryDark">#02499a</color>
+    <color name="colorPrimary">#235eca</color>
+    <color name="colorAccent">#2D9CDB</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="lightYellow">#FFBF26</color>
+    <color name="txtBlue2D">#2D9CDB</color>
+    <color name="lightBlue">#2FC5ED</color>
+    <color name="darkerBlue2F">#2F80ED</color>
+    <color name="darkerBlue23">#2356C9</color>
+    <color name="textGreyF2">#F2F2F2</color>
+    <color name="textGrey4F">#4F4F4F</color>
+    <color name="textGreyBD">#BDBDBD</color>
+    <color name="textGrey82">#828282</color>
+    <color name="dividerGreyBD">#32BDBDBD</color> <!--Opacity: 20%-->
+    <color name="dividerGreyE0">#E0E0E0</color>
+    <color name="whiteOpacity60">#66FFFFFF</color>
+    <color name="redEB">#EB3E3E</color>
+    <color name="redEBOpacity51">#33EB5757</color>
+    <color name="green27">#27AE60</color>
+    <color name="orangeF2">#F2994A</color>
+    <color name="orangeF2Opacity51">#33F2994A</color>
+    <color name="black">#000000</color>
+    <color name="greyFA">#FAFAFA</color>
+    <color name="redFF">#FF0000</color>
+    <color name="buttonGreyD2">#D2D2D0</color>
+    <color name="redED">#ED1C24</color>
+    <color name="lightBlueOpacity60">#662FC5ED</color>
+    <color name="grey">#969696</color>
+    <color name="light_grey">#C4C4C4</color>
+    <color name="newDarkBlue">#02499A</color>
+    <color name="loginBackground">#F5F6F8</color>
+    <color name="veryDarkGrey">#454545</color>
+    <color name="iconbackgroundgrey">#f5f5f5</color>
+    <color name="iconbackgroundgreytransparent">#84ace0</color>
+    <color name="veryLightBlue">#f5f6f8</color>
+    <color name="bluebutek">#315eb7</color>
+    <color name="bluepale">#f4faff</color>
+    <color name="blueIcon">#368bea</color>
+    <color name="suspendRed">#ff8b8b</color>
+
+    <color name="black_overlay">#66000000</color>
+</resources>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_rect_white"
+    android:layout_marginBottom="@dimen/dimen_16dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/dimen_16dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:src="@drawable/ic_pinlocation"
+            tools:ignore="ContentDescription"
+            android:layout_marginEnd="@dimen/dimen_8dp"/>
+        <TextView
+            android:id="@+id/txt_initial_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Kota Jakarta Barat (Jakarta Barat 1)"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dimen_16dp"
+        android:paddingEnd="@dimen/dimen_16dp"
+        android:paddingBottom="@dimen/dimen_16dp"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:src="@drawable/ic_pingreen"
+            tools:ignore="ContentDescription"
+            android:layout_marginEnd="@dimen/dimen_8dp"/>
+        <TextView
+            android:id="@+id/txt_pick_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Pick 1 - Kota Jakarta Pusat (Jakarta Pusat 1)\nPick 2 - Kota Jakarta Pusat (Jakarta Pusat 2)"
+            android:lineSpacingMultiplier="1.5"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2dp"
+        android:background="@color/loginBackground"
+        android:paddingBottom="@dimen/dimen_16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dimen_16dp"
+        android:paddingEnd="@dimen/dimen_16dp"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:layout_marginStart="@dimen/dimen_20dp"
+            android:src="@drawable/ic_pinyellow"
+            android:layout_marginEnd="@dimen/dimen_8dp"
+            tools:ignore="ContentDescription" />
+        <TextView
+            android:id="@+id/txt_drop_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lineSpacingMultiplier="1.5"
+            tools:text="Drop 1 - Kota Bekasi (Bekasi 1)\nDrop 2 - Kota Bekasi (Bekasi 2)"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="@dimen/dimen_16dp"
+        android:paddingEnd="@dimen/dimen_16dp"
+        android:paddingTop="@dimen/dimen_16dp"
+        android:layout_marginBottom="@dimen/dimen_24dp"
+        tools:ignore="UseCompoundDrawables">
+        <ImageView
+            android:layout_width="@dimen/dimen_20dp"
+            android:layout_height="@dimen/dimen_20dp"
+            android:src="@drawable/ic_pinlocationred"
+            android:layout_marginStart="@dimen/dimen_20dp"
+            android:layout_marginEnd="@dimen/dimen_8dp"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/txt_final_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            tools:text="Kota Bekasi (Cikarang 1)"/>
+    </LinearLayout>
+
+
+</LinearLayout>

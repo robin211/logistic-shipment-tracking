@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "426849266713",
+    "firebase_url": "https://fli-fastlog.firebaseio.com",
+    "project_id": "fli-fastlog",
+    "storage_bucket": "fli-fastlog.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426849266713:android:c92ee44c81632d09028e88",
+        "android_client_info": {
+          "package_name": "com.fli.elogistic.driver.sbx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426849266713-6805k4jel9rfn47bc0dacptfv2cage1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW1FZQobxifJnEHG_cHNbkjhuUl5K01cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426849266713-6805k4jel9rfn47bc0dacptfv2cage1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:426849266713:android:33436764e31e5b05028e88",
+        "android_client_info": {
+          "package_name": "com.fli.elogistic.shipper.sbx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "426849266713-6805k4jel9rfn47bc0dacptfv2cage1j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW1FZQobxifJnEHG_cHNbkjhuUl5K01cI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "426849266713-6805k4jel9rfn47bc0dacptfv2cage1j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

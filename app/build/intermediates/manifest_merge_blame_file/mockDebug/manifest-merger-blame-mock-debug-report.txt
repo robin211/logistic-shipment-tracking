@@ -1,0 +1,473 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.fli.elogistic.driver.mock"
+4    android:versionCode="1"
+5    android:versionName="2.0-mock" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:5:5-79
+11-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+12-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:6:5-81
+12-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:7:5-72
+13-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:7:22-69
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:8:5-67
+14-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.CALL_PHONE" />
+15-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:9:5-69
+15-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:9:22-66
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:10:5-80
+16-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:11:5-81
+17-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+18-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:12:5-77
+18-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:12:22-74
+19
+20    <uses-feature
+20-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:14:5-16:35
+21        android:name="android.hardware.camera.any"
+21-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:15:9-51
+22        android:required="true" />
+22-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:16:9-32
+23    <uses-feature
+23-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:17:5-19:36
+24        android:name="android.hardware.camera.autofocus"
+24-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:18:9-57
+25        android:required="false" />
+25-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:19:9-33
+26
+27    <!-- Include required permissions for Google Maps API to run. -->
+28    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:5-79
+28-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:23:22-76
+29
+30    <uses-feature
+30-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+31        android:glEsVersion="0x00020000"
+31-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+32        android:required="true" />
+32-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+33
+34    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+34-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:24:5-68
+34-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:24:22-65
+35    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+35-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:5-82
+35-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:26:22-79
+36    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+36-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:26:5-110
+36-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:26:22-107
+37
+38    <application
+38-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:21:5-123:19
+39        android:name="com.fli.elogistic.driver.MainApp"
+39-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:22:9-32
+40        android:allowBackup="true"
+40-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:23:9-35
+41        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+41-->[androidx.core:core:1.3.2] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7a87803f8a8ca54dde2542fa381c9b99\core-1.3.2\AndroidManifest.xml:24:18-86
+42        android:debuggable="true"
+43        android:icon="@mipmap/ic_launcher"
+43-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:24:9-43
+44        android:label="@string/app_name"
+44-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:25:9-41
+45        android:roundIcon="@mipmap/ic_launcher_round"
+45-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:26:9-54
+46        android:supportsRtl="true"
+46-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:27:9-35
+47        android:testOnly="true"
+48        android:usesCleartextTraffic="true" >
+48-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:28:9-44
+49        <activity
+49-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:30:9-32:57
+50            android:name="com.fli.elogistic.driver.ui.activities.AccidentActivity"
+50-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:30:19-65
+51            android:screenOrientation="portrait"
+51-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:31:13-49
+52            android:theme="@style/AppThemeNoActionBar" />
+52-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:32:13-55
+53        <activity
+53-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:33:9-36:58
+54            android:name="com.fli.elogistic.driver.ui.activities.UploadPODActivity"
+54-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:34:13-60
+55            android:screenOrientation="portrait"
+55-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:35:13-49
+56            android:theme="@style/AppThemeNoActionBar" />
+56-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:36:13-55
+57        <activity
+57-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:37:9-40:58
+58            android:name="com.fli.elogistic.driver.ui.activities.BiayaTambahanActivity"
+58-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:38:13-64
+59            android:screenOrientation="portrait"
+59-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:39:13-49
+60            android:theme="@style/AppThemeNoActionBar" />
+60-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:40:13-55
+61        <activity
+61-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:41:9-44:58
+62            android:name="com.fli.elogistic.driver.ui.activities.DaftarBiayaOngkirActivity"
+62-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:42:13-68
+63            android:screenOrientation="portrait"
+63-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:43:13-49
+64            android:theme="@style/AppThemeNoActionBar" />
+64-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:44:13-55
+65        <activity
+65-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:45:9-48:58
+66            android:name="com.fli.elogistic.driver.ui.activities.PernyataanSerahTerimaActivity"
+66-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:46:13-72
+67            android:screenOrientation="portrait"
+67-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:47:13-49
+68            android:theme="@style/AppThemeNoActionBar" />
+68-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:48:13-55
+69        <activity
+69-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:49:9-52:58
+70            android:name="com.fli.elogistic.driver.ui.activities.LaporanKerusakanSelisihActivity"
+70-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:50:13-74
+71            android:screenOrientation="portrait"
+71-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:51:13-49
+72            android:theme="@style/AppThemeNoActionBar" />
+72-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:52:13-55
+73        <activity
+73-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:53:9-56:58
+74            android:name="com.fli.elogistic.driver.ui.activities.LokasiPenjemputanActivity"
+74-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:54:13-68
+75            android:screenOrientation="portrait"
+75-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:55:13-49
+76            android:theme="@style/AppThemeNoActionBar" />
+76-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:56:13-55
+77        <activity
+77-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:57:9-60:58
+78            android:name="com.fli.elogistic.driver.ui.activities.DokumenPODActivity"
+78-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:58:13-61
+79            android:screenOrientation="portrait"
+79-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:59:13-49
+80            android:theme="@style/AppThemeNoActionBar" />
+80-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:60:13-55
+81        <activity
+81-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:61:9-64:58
+82            android:name="com.fli.elogistic.driver.ui.activities.PODDetailActivity"
+82-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:62:13-60
+83            android:screenOrientation="portrait"
+83-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:63:13-49
+84            android:theme="@style/AppThemeNoActionBar" />
+84-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:64:13-55
+85        <activity
+85-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:65:9-68:58
+86            android:name="com.fli.elogistic.driver.ui.activities.PengirimanDetailActivity"
+86-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:66:13-67
+87            android:screenOrientation="portrait"
+87-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:67:13-49
+88            android:theme="@style/AppThemeNoActionBar" />
+88-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:68:13-55
+89        <activity
+89-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:69:9-72:58
+90            android:name="com.fli.elogistic.driver.ui.activities.KonfirmasiDetailActivity"
+90-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:70:13-67
+91            android:screenOrientation="portrait"
+91-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:71:13-49
+92            android:theme="@style/AppThemeNoActionBar" />
+92-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:72:13-55
+93        <activity
+93-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:73:9-76:58
+94            android:name="com.fli.elogistic.driver.ui.activities.AuthorizationActivity"
+94-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:74:13-64
+95            android:screenOrientation="portrait"
+95-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:75:13-49
+96            android:theme="@style/AppThemeNoActionBar" />
+96-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:76:13-55
+97        <activity
+97-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:77:9-86:20
+98            android:name="com.fli.elogistic.driver.ui.activities.SplashActivity"
+98-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:78:13-57
+99            android:screenOrientation="portrait"
+99-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:79:13-49
+100            android:theme="@style/SplashTheme" >
+100-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:80:13-47
+101            <intent-filter>
+101-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:81:13-85:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:82:17-69
+102-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:82:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:84:17-77
+104-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:84:27-74
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:87:9-90:58
+108            android:name="com.fli.elogistic.driver.ui.activities.MainActivity"
+108-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:88:13-55
+109            android:screenOrientation="portrait"
+109-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:89:13-49
+110            android:theme="@style/AppThemeNoActionBar" /> <!-- <service -->
+110-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:90:13-55
+111        <!-- android:name=".util.pushNotificationUtils.ChatbotFirebaseMessagingService" -->
+112        <!-- android:exported="false"> -->
+113        <!-- <intent-filter> -->
+114        <!-- <action android:name="com.google.firebase.MESSAGING_EVENT" /> -->
+115        <!-- </intent-filter> -->
+116        <!-- </service> -->
+117        <service
+117-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:97:9-103:19
+118            android:name="com.fli.elogistic.driver.util.pushNotificationUtils.FCMMessagingService"
+118-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:98:13-75
+119            android:exported="false" >
+119-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:99:13-37
+120            <intent-filter>
+120-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:100:13-102:29
+121                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+121-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:101:17-78
+121-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:101:25-75
+122            </intent-filter>
+123        </service>
+124        <service
+124-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:104:9-107:40
+125            android:name="com.fli.elogistic.driver.services.LocationsService"
+125-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:105:13-54
+126            android:enabled="true"
+126-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:106:13-35
+127            android:exported="false" />
+127-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:107:13-37
+128
+129        <provider
+129-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:109:9-117:20
+130            android:name="androidx.core.content.FileProvider"
+130-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:110:13-62
+131            android:authorities="com.fli.elogistic.driver.provider"
+131-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:111:13-68
+132            android:exported="false"
+132-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:112:13-37
+133            android:grantUriPermissions="true" >
+133-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:113:13-47
+134            <meta-data
+134-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:114:13-116:53
+135                android:name="android.support.FILE_PROVIDER_PATHS"
+135-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:115:17-67
+136                android:resource="@xml/file_path" />
+136-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:116:17-50
+137        </provider>
+138
+139        <meta-data
+139-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:119:9-121:45
+140            android:name="com.google.firebase.messaging.default_notification_channel_id"
+140-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:120:13-89
+141            android:value="notif_channel" />
+141-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:121:13-42
+142
+143        <!--
+144             FirebaseMessagingService performs security checks at runtime,
+145             but set to not exported to explicitly avoid allowing another app to call it.
+146        -->
+147        <service
+147-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:28:9-35:19
+148            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+148-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:29:13-82
+149            android:directBootAware="true"
+149-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:30:13-43
+150            android:exported="false" >
+150-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:31:13-37
+151            <intent-filter android:priority="-500" >
+151-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:100:13-102:29
+152                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+152-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:101:17-78
+152-->D:\CODE_ID\fli-mobile-driver\app\src\main\AndroidManifest.xml:101:25-75
+153            </intent-filter>
+154        </service>
+155        <service
+155-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:36:9-42:19
+156            android:name="com.google.firebase.components.ComponentDiscoveryService"
+156-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:37:13-84
+157            android:directBootAware="true"
+157-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+158            android:exported="false" >
+158-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:38:13-37
+159            <meta-data
+159-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:39:13-41:85
+160                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+160-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:40:17-119
+161                android:value="com.google.firebase.components.ComponentRegistrar" />
+161-->[com.google.firebase:firebase-messaging:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\1886fcbac0e4cb1131f6ceea58f5c656\jetified-firebase-messaging-21.0.1\AndroidManifest.xml:41:17-82
+162            <meta-data
+162-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:32:13-34:85
+163                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+163-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:33:17-96
+164                android:value="com.google.firebase.components.ComponentRegistrar" />
+164-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:34:17-82
+165            <meta-data
+165-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7db9bbde05755309e5ac276b25d0d36a\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:18:13-20:85
+166                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+166-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7db9bbde05755309e5ac276b25d0d36a\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:19:17-115
+167                android:value="com.google.firebase.components.ComponentRegistrar" />
+167-->[com.google.firebase:firebase-crashlytics:17.3.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7db9bbde05755309e5ac276b25d0d36a\jetified-firebase-crashlytics-17.3.0\AndroidManifest.xml:20:17-82
+168            <meta-data
+168-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7292384b429b2109bf9899681dc11517\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+169                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+169-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7292384b429b2109bf9899681dc11517\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+170                android:value="com.google.firebase.components.ComponentRegistrar" />
+170-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7292384b429b2109bf9899681dc11517\jetified-firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+171            <meta-data
+171-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ebd5a9eb2ac0f7b2be65e462ea461b2b\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:30:13-32:85
+172                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+172-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ebd5a9eb2ac0f7b2be65e462ea461b2b\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:31:17-139
+173                android:value="com.google.firebase.components.ComponentRegistrar" />
+173-->[com.google.android.gms:play-services-measurement-api:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ebd5a9eb2ac0f7b2be65e462ea461b2b\jetified-play-services-measurement-api-18.0.1\AndroidManifest.xml:32:17-82
+174            <meta-data
+174-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e37315de0f41e03d689cfec6c6967f7b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+175                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+175-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e37315de0f41e03d689cfec6c6967f7b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+176                android:value="com.google.firebase.components.ComponentRegistrar" />
+176-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e37315de0f41e03d689cfec6c6967f7b\jetified-firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+177            <!--
+178                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+179                clients to use it as well, by defining this registrar in their own core/common library.
+180            -->
+181            <meta-data
+181-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+182                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+182-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+183                android:value="com.google.firebase.components.ComponentRegistrar" />
+183-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+184        </service> <!-- Needs to be explicitly declared on P+ -->
+185        <uses-library
+185-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:33:9-35:40
+186            android:name="org.apache.http.legacy"
+186-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:34:13-50
+187            android:required="false" />
+187-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\cfeaf36d7eb3204b0a05bf15f0aafa6e\jetified-play-services-maps-17.0.0\AndroidManifest.xml:35:13-37
+188
+189        <receiver
+189-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:37:9-44:20
+190            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+190-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:38:13-78
+191            android:exported="true"
+191-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:39:13-36
+192            android:permission="com.google.android.c2dm.permission.SEND" >
+192-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:40:13-73
+193            <intent-filter>
+193-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:41:13-43:29
+194                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+194-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:17-81
+194-->[com.google.firebase:firebase-iid:21.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\84582f09149f9df4f92d1fd09e0355eb\jetified-firebase-iid-21.0.1\AndroidManifest.xml:42:25-78
+195            </intent-filter>
+196        </receiver>
+197        <receiver
+197-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:29:9-33:20
+198            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+198-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:30:13-85
+199            android:enabled="true"
+199-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:31:13-35
+200            android:exported="false" >
+200-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:32:13-37
+201        </receiver>
+202
+203        <service
+203-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:35:9-38:40
+204            android:name="com.google.android.gms.measurement.AppMeasurementService"
+204-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:36:13-84
+205            android:enabled="true"
+205-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:37:13-35
+206            android:exported="false" />
+206-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:38:13-37
+207        <service
+207-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:39:9-43:72
+208            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+208-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:40:13-87
+209            android:enabled="true"
+209-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:41:13-35
+210            android:exported="false"
+210-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:42:13-37
+211            android:permission="android.permission.BIND_JOB_SERVICE" />
+211-->[com.google.android.gms:play-services-measurement:18.0.1] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\b6e573d0cca53dbcc2646426e26f26ee\jetified-play-services-measurement-18.0.1\AndroidManifest.xml:43:13-69
+212
+213        <provider
+213-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+214            android:name="com.google.firebase.provider.FirebaseInitProvider"
+214-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+215            android:authorities="com.fli.elogistic.driver.mock.firebaseinitprovider"
+215-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+216            android:directBootAware="true"
+216-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+217            android:exported="false"
+217-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+218            android:initOrder="100" />
+218-->[com.google.firebase:firebase-common:19.5.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\992207e79fb03bc734d6665b4bb10342\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+219
+220        <activity
+220-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\da556d715d91443723f015412c0cc0f5\jetified-play-services-base-17.6.0\AndroidManifest.xml:23:9-26:75
+221            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+221-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\da556d715d91443723f015412c0cc0f5\jetified-play-services-base-17.6.0\AndroidManifest.xml:24:13-79
+222            android:exported="false"
+222-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\da556d715d91443723f015412c0cc0f5\jetified-play-services-base-17.6.0\AndroidManifest.xml:25:13-37
+223            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+223-->[com.google.android.gms:play-services-base:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\da556d715d91443723f015412c0cc0f5\jetified-play-services-base-17.6.0\AndroidManifest.xml:26:13-72
+224
+225        <meta-data
+225-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e6b1d9647b8359fc1e2e370a70df5237\jetified-play-services-basement-17.6.0\AndroidManifest.xml:23:9-25:69
+226            android:name="com.google.android.gms.version"
+226-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e6b1d9647b8359fc1e2e370a70df5237\jetified-play-services-basement-17.6.0\AndroidManifest.xml:24:13-58
+227            android:value="@integer/google_play_services_version" />
+227-->[com.google.android.gms:play-services-basement:17.6.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e6b1d9647b8359fc1e2e370a70df5237\jetified-play-services-basement-17.6.0\AndroidManifest.xml:25:13-66
+228
+229        <provider
+229-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\30c46f57f439bf7bb7619d796c6c8f86\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+230            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+230-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\30c46f57f439bf7bb7619d796c6c8f86\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+231            android:authorities="com.fli.elogistic.driver.mock.lifecycle-process"
+231-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\30c46f57f439bf7bb7619d796c6c8f86\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+232            android:exported="false"
+232-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\30c46f57f439bf7bb7619d796c6c8f86\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+233            android:multiprocess="true" />
+233-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\30c46f57f439bf7bb7619d796c6c8f86\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+234
+235        <service
+235-->[androidx.room:room-runtime:2.2.6] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e77c0c22b6b7aec52d122bcef4cf6944\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+236            android:name="androidx.room.MultiInstanceInvalidationService"
+236-->[androidx.room:room-runtime:2.2.6] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e77c0c22b6b7aec52d122bcef4cf6944\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+237            android:directBootAware="true"
+237-->[androidx.room:room-runtime:2.2.6] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e77c0c22b6b7aec52d122bcef4cf6944\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+238            android:exported="false" />
+238-->[androidx.room:room-runtime:2.2.6] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\e77c0c22b6b7aec52d122bcef4cf6944\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+239        <service
+239-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+240            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+240-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+241            android:exported="false" >
+241-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+242            <meta-data
+242-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+243                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+243-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+244                android:value="cct" />
+244-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\7411b900471a656f814a92a66f518fd1\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+245        </service>
+246        <service
+246-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+247            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+247-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+248            android:exported="false"
+248-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+249            android:permission="android.permission.BIND_JOB_SERVICE" >
+249-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+250        </service>
+251
+252        <receiver
+252-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+253            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+253-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+254            android:exported="false" />
+254-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\Robin\.gradle\caches\transforms-2\files-2.1\ed5aed61f6ed7f2953b390c88f3d7b97\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+255    </application>
+256
+257</manifest>

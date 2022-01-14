@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="@dimen/dimen_16dp">
+    <View
+        android:id="@+id/view1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_2dp"
+        android:background="@color/loginBackground" />
+    <ImageView
+        android:id="@+id/btn_maps"
+        android:layout_width="@dimen/dimen_32dp"
+        android:layout_height="@dimen/dimen_32dp"
+        android:layout_alignParentEnd="true"
+        android:padding="@dimen/dimen_8dp"
+        android:background="@drawable/oval_grey"
+        android:src="@drawable/ic_googlemaps"
+        tools:ignore="ContentDescription"
+        android:layout_marginTop="@dimen/dimen_16dp"/>
+    <TextView
+        android:id="@+id/btn_detil_initial"
+        android:layout_width="@dimen/dimen_64dp"
+        android:layout_height="26dp"
+        android:background="@drawable/rounded_rect_small"
+        android:textColor="@color/white"
+        android:text="@string/detil"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btn_maps"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_marginBottom="@dimen/dimen_8dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/btn_berangkat_sampai"
+        android:layout_width="100dp"
+        android:layout_height="32dp"
+        android:background="@drawable/rounded_rect_small"
+        android:textColor="@color/white"
+        android:text="@string/berangkat"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btn_detil_initial"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/btn_detil_initial_inactive"
+        android:layout_width="@dimen/dimen_64dp"
+        android:layout_height="26dp"
+        android:background="@drawable/rounded_rect_small_inactive"
+        android:textColor="@color/veryDarkGrey"
+        android:text="@string/detil"
+        android:gravity="center"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@id/btn_maps"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_marginBottom="@dimen/dimen_16dp"
+        android:visibility="visible"/>
+    <ImageView
+        android:id="@+id/pin"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:src="@drawable/ic_pingreen"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_below="@id/view1"
+        tools:ignore="ContentDescription"
+        android:visibility="invisible"/>
+    <ImageView
+        android:id="@+id/pinYellow"
+        android:layout_width="@dimen/dimen_20dp"
+        android:layout_height="@dimen/dimen_20dp"
+        android:src="@drawable/ic_pinyellow"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginStart="24dp"
+        android:layout_below="@id/view1"
+        tools:ignore="ContentDescription"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/txt_location2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Kota Jakarta Pusat (Jakarta Pusat 1)"
+        android:layout_toEndOf="@id/pinYellow"
+        android:layout_below="@id/view1"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginStart="@dimen/dimen_8dp"
+        android:layout_toStartOf="@id/btn_maps"
+        android:layout_marginEnd="@dimen/dimen_8dp"
+        android:maxLines="2"
+        android:visibility="gone"/>
+    <TextView
+        android:id="@+id/txt_address2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_below="@id/txt_location2"
+        android:layout_alignStart="@id/txt_location2"
+        android:layout_marginEnd="72dp"
+        android:maxLines="2"
+        tools:text="Jalan Rono Rene Rt 08 Rw 02 Jakarta Pusat"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/txt_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        tools:text="Kota Jakarta Pusat (Jakarta Pusat 1)"
+        android:layout_below="@id/view1"
+        android:layout_toEndOf="@id/pin"
+        android:layout_toStartOf="@id/btn_maps"
+        android:maxLines="2"
+        android:layout_marginTop="@dimen/dimen_16dp"
+        android:layout_marginStart="@dimen/dimen_8dp"
+        android:layout_marginEnd="@dimen/dimen_8dp"/>
+    <TextView
+        android:id="@+id/txt_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen_8dp"
+        android:layout_below="@id/txt_location"
+        android:maxLines="2"
+        android:layout_marginEnd="72dp"
+        tools:text="Jalan Rono Rene Rt 08 Rw 02 Jakarta Pusat"
+        android:layout_marginStart="28dp"/>
+
+</RelativeLayout>
